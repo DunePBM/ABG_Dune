@@ -8,7 +8,7 @@
 		<!--
 		<meta name="viewport" content="minimum-scale=0.0001, maximum-scale=10.0">
 		-->
-		<title>Dune Board</title>
+		<title>Anywhere Board Games</title>
 	<!--
 		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
@@ -99,7 +99,17 @@
 					<label>Select one:</label>
 					<select style="width: 75%;" name="url_select" id="upload_board_select" class="ui-widget-content ui-corner-all">
 						<option value="">-</option>
-						<<option value="../games/dune/dune.abg">Games: Dune</option>
+						<option value="../games/dune/dune.abg">Games: Dune</option>
+						<option value="../games/agricola_express/agricola_express.abg">Games: Agricola Express</option>
+						<option value="../games/checkers/checkers.abg">Games: Checkers</option>
+						<option value="../games/chess/chess.abg">Games: Chess</option>
+						<option value="../games/go/go.abg">Games: Go</option>
+						<option value="../games/reversi/reversi.abg">Games: Reversi</option>
+						<option value="../games/words_con_amigos/words.abg">Games: Words</option>
+						<option value="../games/deck/deck.abg">Pieces: Blue deck of cards</option>
+						<option value="../games/game_pieces/dice.abg">Pieces: 6-sided Dice</option>
+						<option value="../games/game_pieces/quarter.abg">Pieces: A flipping coin</option>
+						<option value="../games/intro.abg">Introduction</option>
 					</select>
 					<P></P>
 					<span><B>Or upload your own ABG file or URL:</B></span>
